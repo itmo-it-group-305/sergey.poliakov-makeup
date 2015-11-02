@@ -6,17 +6,64 @@
 </head>
 <body>
      <form action="index.html" method="post">
-         <input type="text" placeholder="Write me some shit">
+         <div>
+             <label for="fio">ФИО</label>
+             <input id="fio" type="text" placeholder="Write me some shit" name="spam[fio]">
+         </div>
+         <div>
+             <label>
+                 Мужской <input type="radio" name="spam[sex]" value="0" checked>
+             </label>
 
-         <input type="radio" name="sex" value="0" checked>
-         <input type="radio" name="sex" value="1">
-         <input type="radio" name="sex" value="2">
+             <label>
+                 Женский <input type="radio" name="spam[sex]" value="1">
+             </label>
 
-         <input type="checkbox" name="sections[]" value="1">
-         <input type="checkbox" name="sections[]" value="2" checked>
-         <input type="checkbox" name="sections[]" value="3">
+             <label>
+                 Средний <input type="radio" name="spam[sex]" value="2">
+             </label>
+         </div>
+         <div>
+             <fieldset>
+                 <legend>Что хотите читать?</legend>
+                 <ul>
+                     <li>
+                         <label>
+                             Фото
+                             <input type="checkbox" name="spam[sections][]" value="1">
+                         </label>
+                     </li>
+                     <li>
+                         <label>
+                             Новости
+                             <input type="checkbox" name="spam[sections][]" value="2" checked>
+                         </label>
+                     </li>
+                     <li>
+                         <label>
+                             Что-то ещё
+                             <input type="checkbox" name="spam[sections][]" value="3">
+                         </label>
+                     </li>
+                 </ul>
+             </fieldset>
+         </div>
+         <div>
+             <label for="city">Ваш город</label>
+             <select name="spam[сity]" id="city">
+                <option value="1" selected>Санкт-Петербург</option>
+                <option value="2">Ленинград</option>
+                <option value="3">Петроград</option>
+             </select>
+         </div>
+         <div>
+             <label for="comment">Особые пожелания</label>
+             <textarea name="spam[comment]" id="comment">S H I T</textarea>
+         </div>
+         <div>
+             <input type="submit" value="send">
+         </div>
 
-         <input type="submit" value="send">
      </form>
 </body>
 </html>
