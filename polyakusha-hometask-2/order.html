@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Натяжные потолки в Санкт-Петербурге - сделать заказ</title>
+</head>
+<body>
+
+    <a href="about.html">О нас</a>
+    <a href="pricelist.html">Цены</a>
+    <a href="index.html">На главную</a>
+    <a href="contacts.html">Контакты</a>
+
+    <h1>Сделать заказ:</h1>
+    <form action="order.html" method="post">
+        <fieldset>
+            <legend>Ваши контактные данные:</legend>
+            <div>
+                <label for="fio">Ваше имя:</label>
+                <input id="fio" type="text" placeholder="Толстой Лев Николаевич" name="potolki[fio]" required>
+            </div>
+
+            <div>
+                <label for="adress">Ваш адрес:</label>
+                <input id="adress" type="text" placeholder="190000, Санкт-Петербург, пл. Дворцовая д.1" name="potolki[adress]" required>
+            </div>
+
+            <div>
+                <label for="email-p">Ваша электронная почта:</label>
+                <input id="email-p" type="email" placeholder="lev@tolstoy.ru" name="potolki[email]" required>
+            </div>
+
+            <div>
+                <label for="phone">Ваш телефон:</label>
+                <input id="phone" type="tel" placeholder="212-85-06" name="potolki[tel]" required>
+            </div>
+
+            <div>
+                <label for="metro">Ближайшая станция метро:</label>
+                <select id="metro" name="potolki[metro]">
+                    <optgroup label="Красная ветка">
+                        <option value="1">Проспект Ветеранов</option>
+                        <option value="2">Ленинский проспект</option>
+                        <option value="3" selected>Автово</option>
+                    </optgroup>
+                    <optgroup label="Фиолетовая ветка">
+                        <option value="4">Международная</option>
+                        <option value="5">Бухарестская</option>
+                        <option value="6">Волковская</option>
+                    </optgroup>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Данные о заказе:</legend>
+            <div>
+                <fieldset>
+                    <legend>Вид потолка:</legend>
+                    <label><input type="radio" name="pololki[vid]" value="0" checked>Обычный</label>
+                    <label><input type="radio" name="pololki[vid]" value="1" checked>Из особенных материалов</label>
+                    <label><input type="radio" name="pololki[vid]" value="2" checked>Ремонт потолка</label>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Дополнительные опции:</legend>
+                    <label><input type="checkbox" name="potolki[dop][]" value="0">Влагостойкий</label>
+                    <label><input type="checkbox" name="potolki[dop][]" value="1">Нестандартная планировка</label>
+                    <label><input type="checkbox" name="potolki[dop][]" value="2">С котиками</label>
+                </fieldset>
+            </div>
+        </fieldset>
+
+       <fieldset>
+            <legend>Дополнительно:</legend>
+           <div>
+               <label><input type="checkbox" name="potolki[extra]">Срочный заказ</label>
+           </div>
+           <div>
+               <label for="special">Особые пожелания:</label>
+               <textarea id="special" name="potolki[comment]">Ваши комметарии вы можете оставить здесь</textarea>
+           </div>
+           <div>
+               <label for="imageFileField">Загрузить планировку квартиры:<sup>в jpeg</sup></label>
+               <input id="imageFileField" type="file" accept="image/jpeg" name="potolki[jpeg]">
+           </div>
+       </fieldset>
+
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Сбросить">
+    </form>
+
+    <p>&copy; Сайт от <a href="http://www.sergeypoliakov.com">polyakusha</a></p>
+</body>
+</html>
