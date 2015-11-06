@@ -1,0 +1,57 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,600|Ubuntu&subset=latin,cyrillic,cyrillic-ext,latin-ext);
+
+body {
+    margin: 20px;
+    font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: mediumorchid;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.form-row {
+    margin: 20px 0;
+}
+
+.form-row label {
+    display: block;
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.form-row input,
+textarea{
+    background: #efefef;
+    border: 1px solid #999;
+    border-radius: 9px;
+    padding: 5px;
+    width: 100%;
+    font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+.form-row [type=radio],
+.form-row [type=checkbox]
+.buttons-panel input {
+    width: auto;
+}
+
+.spam-form {
+    width: 50%;
+    margin: 0 auto;
+}
