@@ -1,0 +1,135 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,600|Ubuntu&subset=latin,cyrillic,cyrillic-ext,latin-ext);
+
+body {
+    font-family: 'Ubuntu', Arial, sans-serif;
+    margin: 0;
+    background: #ecf0f1;
+    color: #2c3e50
+}
+
+h1, h2 {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h2 {
+    color: #8e44ad;
+    margin: 40px;
+    text-align: center;
+}
+
+p {
+    margin: 20px;
+}
+
+nav ul {
+    display: table;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+    background: #3498db;
+    padding: 20px;
+    /*position: fixed;*/
+}
+
+nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #bdc3c7;
+}
+
+nav a:active {
+    color: #95a5a6;
+}
+
+nav li {
+    display: table-cell;
+    margin-right: 1px;
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    background: #2c3e50;
+    display: block;
+    color: #ecf0f1;
+    height: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    background: url(../img/review.jpeg) no-repeat;
+    height: 250px;
+    text-align: center;
+    /*background-attachment: scroll;*/
+}
+
+header h1,
+header p{
+    display: inline-block;
+    padding: 25px;
+    background: #3498db;
+    color: #ecf0f1;
+    /*vertical-align: middle;*/
+}
+
+.text {
+    margin: 20px;
+}
+
+fieldset {
+    margin: 20px;
+    border: 3px solid #2980b9;
+    border-radius: 10px;
+}
+
+legend {
+    color: #2980b9;
+    font-weight: 600;
+}
+
+.form-row {
+    margin: 20px;
+}
+
+.form-row input,
+textarea {
+    background: #fff;
+    border: 1px solid #34495e;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+/*optgroup {*/
+    /*background: #fff;*/
+    /*color: #e74c3c;*/
+    /*font-family: 'Ubuntu', Arial, sans-serif;*/
+/*}*/
+
+.form-row [type=radio],
+.form-row [type=checkbox],
+.buttons-panel input {
+    width: auto;
+}
+
+.potolki {
+    width: 75%;
+    margin: 0 auto;
+}
+
