@@ -14,7 +14,7 @@
             <li><a href="pricelist.html">Цены</a></li>
             <li><a href="contacts.html">Контакты</a></li>
             <li class="active">Сделать заказ</a></li>
-            <li><input type="text"></li>
+            <li><input type="text" placeholder="&#128270; Поиск" class="search"></li>
         </ul>
     </nav>
 
@@ -74,7 +74,7 @@
             <fieldset>
                 <legend>Данные о заказе:</legend>
                 <div class="form-row">
-                    <fieldset>
+                    <fieldset class="inner">
                         <legend>Вид потолка:</legend>
                         <label><input type="radio" name="pololki[vid]" value="0" checked>Обычный</label>
                         <label><input type="radio" name="pololki[vid]" value="1" checked>Из особенных материалов</label>
@@ -82,7 +82,7 @@
                     </fieldset>
                 </div>
                 <div class="form-row">
-                    <fieldset>
+                    <fieldset class="inner">
                         <legend>Дополнительные опции:</legend>
                         <label><input type="checkbox" name="potolki[dop][]" value="0">Влагостойкий</label>
                         <label><input type="checkbox" name="potolki[dop][]" value="1">Нестандартная планировка</label>
@@ -105,12 +105,12 @@
                     </div>
                     <div class="form-row">
                         <label for="imageFileField">Загрузить планировку квартиры:<sup>в jpeg</sup></label>
-                        <input id="imageFileField" type="file" accept="image/jpeg" name="potolki[jpeg]">
+                        <input id="imageFileField" type="file" accept="image/jpeg" name="potolki[jpeg]" class="button">
                     </div>
                 </fieldset>
                 <div class="form-row buttons-panel">
-                    <input type="submit" value="Отправить" class="button1">
-                    <input type="reset" value="Сбросить">
+                    <input type="submit" value="Отправить" class="button">
+                    <input type="reset" value="Сбросить" class="button">
                 </div>
             </div>
         </div>

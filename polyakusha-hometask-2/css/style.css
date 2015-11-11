@@ -1,24 +1,22 @@
 @import url(//necolas.github.io/normalize.css/3.0.2/normalize.css);
 @import url(reset.css);
 @import url(grid.css);
-@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,600|Ubuntu&subset=latin,cyrillic,cyrillic-ext,latin-ext);
+@import url(//fonts.googleapis.com/css?family=Roboto:400,500,700|Ubuntu:400,500,700&subset=latin,cyrillic);
 @import url(brief.css);
 
 body {
-    font-family: 'Ubuntu', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     background: #ecf0f1;
     color: #2c3e50
 }
 
-h1, h2 {
-    font-family: 'Open Sans', Arial, sans-serif;
-}
-
 h1 {
+    font-family: 'Ubuntu', Arial, sans-serif;
     font-size: xx-large;
 }
 
 h2 {
+    font-family: 'Roboto', Arial, sans-serif;
     color: #8e44ad;
     text-align: center;
     font-size: x-large;
@@ -49,6 +47,7 @@ nav li{
     text-decoration: none;
     color: #ecf0f1;
     text-transform: uppercase;
+    font-family: 'Ubuntu', Arial, sans-serif;
 }
 
 nav a:hover {
@@ -62,6 +61,12 @@ nav a:active {
 nav li {
     display: table-cell;
     padding: 15px;
+}
+
+.search {
+    border: 3px solid #2980b9;
+    border-radius: 10px;
+    text-align: left;
 }
 
 .active {
