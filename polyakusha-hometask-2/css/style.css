@@ -4,6 +4,7 @@
 @import url(//fonts.googleapis.com/css?family=Roboto:400,500,700|Ubuntu:400,500,700&subset=latin,cyrillic);
 @import url(brief.css);
 @import url(menu.css);
+@import url(modal.css);
 
 .wrapper {
     min-width: 200px;

@@ -1,5 +1,6 @@
 .top-menu {
     background: #3498db;
+    position: relative;
 }
 
 .menu li,
@@ -10,15 +11,22 @@
     padding: 1.171875em;
 }
 
-.menu a,
-.logo {
+.menu li a,
+.logo,
+.logotext a,
+.active {
     text-decoration: none;
     display: block;
 }
 
+.logo,
+.logotext a {
+    text-shadow: 3px 1px 17px rgba(52, 73, 94, 0.96);
+}
+
 .menu-horizontal,
 .logoholder,
-.searcholder{
+.searcholder {
     display: table;
     width: 100%;
     padding-left: 0;
@@ -26,18 +34,53 @@
 
 .menu-horizontal li,
 .logotext,
-.searchtext{
+.searchtext {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
 }
 
+.menu ul {
+    display: none;
+    background: red;
+    width: 100%;
+}
+
+.menu ul li {
+    display: block;
+    text-align: center;
+    background: black;
+}
+
+.menu li:hover ul{
+    display: block;
+}
+
+.home-menu ul {
+    background: black;
+    color: white;
+}
+
+
+
 .top-menu a,
-.logo {
+.logo,
+.logotext a,
+.active {
     text-transform: uppercase;
     font-family: 'Ubuntu', Arial, sans-serif;
     color: #ecf0f1;
     font-size: 1.5625em;
+}
+
+.top-menu a,
+.logo,
+.logotext a {
+    color: #ecf0f1;
+}
+
+.active {
+    color: #95a5a6;
 }
 
 .top-menu a:hover {
@@ -58,6 +101,9 @@
     width: 90%;
     padding: 0.090625em;
 }
+
+
+
 
 
 
