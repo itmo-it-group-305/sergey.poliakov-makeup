@@ -42,25 +42,35 @@
 
 .menu ul {
     display: none;
-    background: red;
     position: absolute;
     list-style-type: none;
+    background: #3498db;
 }
+
+.menu ul ul,
+.menu li:hover ul li ul {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    left: 100%;
+}
+
 
 .menu ul li {
     display: block;
-    background: black;
 }
 
-.menu ul li:nth-child(2n) {
-    background: #3498db;
+.home-menu ul li:nth-child(2n) {
+    background: #34495e;
 }
 
 .menu li:hover ul{
     display: block;
 }
 
-
+.menu li:hover ul li:hover ul {
+    display: block;
+}
 
 .top-menu a,
 .logo,
