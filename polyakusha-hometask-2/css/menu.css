@@ -49,17 +49,15 @@
 
 .menu ul li {
     display: block;
-    text-align: center;
     background: black;
+}
+
+.menu ul li:nth-child(2n) {
+    background: #3498db;
 }
 
 .menu li:hover ul{
     display: block;
-}
-
-.home-menu ul {
-    background: black;
-    color: white;
 }
 
 
