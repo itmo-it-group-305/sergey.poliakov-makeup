@@ -1,10 +1,10 @@
 @import url(//necolas.github.io/normalize.css/3.0.2/normalize.css);
 @import url(reset.css);
+@import url(modal.css);
 @import url(grid.css);
 @import url(//fonts.googleapis.com/css?family=Roboto:400,500,700|Ubuntu:400,500,700&subset=latin,cyrillic);
 @import url(brief.css);
 @import url(menu.css);
-@import url(modal.css);
 
 .wrapper {
     min-width: 200px;
@@ -47,7 +47,6 @@ img {
     height: 250px;
     padding-top: 50px;
     padding-left: 50px;
-    position: relative;
     text-align: center;
     vertical-align: right;
 }
