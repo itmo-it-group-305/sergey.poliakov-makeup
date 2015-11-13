@@ -43,7 +43,8 @@
 .menu ul {
     display: none;
     background: red;
-    width: 100%;
+    position: absolute;
+    list-style-type: none;
 }
 
 .menu ul li {
