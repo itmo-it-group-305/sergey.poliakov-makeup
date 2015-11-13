@@ -46,12 +46,15 @@ textarea{
 }
 
 .form-row [type=radio],
-.form-row [type=checkbox]
+.form-row [type=checkbox],
 .buttons-panel input {
     width: auto;
 }
 
-.spam-form {
-    width: 50%;
+.potolki-form {
+    width: 80%;
     margin: 0 auto;
 }
+
+
+

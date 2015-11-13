@@ -3,74 +3,42 @@
 @import url(grid.css);
 @import url(//fonts.googleapis.com/css?family=Roboto:400,500,700|Ubuntu:400,500,700&subset=latin,cyrillic);
 @import url(brief.css);
+@import url(menu.css);
+
+.wrapper {
+    min-width: 200px;
+    max-width: 2000px;
+}
 
 body {
     font-family: 'Roboto', Arial, sans-serif;
     background: #ecf0f1;
-    color: #2c3e50
+    color: #2c3e50;
+    font-size: 1em;
 }
 
 h1 {
     font-family: 'Ubuntu', Arial, sans-serif;
-    font-size: xx-large;
+    font-size: 3em;
 }
 
 h2 {
     font-family: 'Roboto', Arial, sans-serif;
     color: #8e44ad;
     text-align: center;
-    font-size: x-large;
-    padding: 10px;
+    font-size: 2em;
+    padding: 0.625em;
     line-height: 130%;
 }
 
 p {
     line-height: 105%;
     text-align: justify;
-    padding: 10px;
+    padding: 0.625em;
 }
 
 img {
     width: 100%;
-}
-
-nav ul{
-    display: table;
-    background: #3498db;
-    text-align: center;
-    padding-left: 0;
-    font-size: 20px;
-}
-
-nav a,
-nav li{
-    text-decoration: none;
-    color: #ecf0f1;
-    text-transform: uppercase;
-    font-family: 'Ubuntu', Arial, sans-serif;
-}
-
-nav a:hover {
-    color: #bdc3c7;
-}
-
-nav a:active {
-    color: #95a5a6;
-}
-
-nav li {
-    display: table-cell;
-    padding: 15px;
-}
-
-.search {
-    border: 3px solid #2980b9;
-    border-radius: 10px;
-    text-align: left;
-}
-
-.active {
-    color: #95a5a6;
 }
 
 .header {
@@ -78,6 +46,9 @@ nav li {
     height: 250px;
     padding-top: 50px;
     padding-left: 50px;
+    position: relative;
+    text-align: center;
+    vertical-align: right;
 }
 
 .brief {
@@ -86,11 +57,12 @@ nav li {
 
 .header h1,
 .header p{
-    display: table-cell;
-    padding: 25px;
+    display: inline-block;
+    margin-bottom: 20px;
     background: rgba(52, 152, 219, 0.78);
     color: #ecf0f1;
     text-indent: 0;
+    padding: 25px;
 }
 
 .content {

@@ -1,0 +1,64 @@
+.top-menu {
+    background: #3498db;
+}
+
+.menu li,
+.logotext,
+.searchtext {
+    margin-top: 0.78125em;
+    margin-bottom: 0.78125em;
+    padding: 1.171875em;
+}
+
+.menu a,
+.logo {
+    text-decoration: none;
+    display: block;
+}
+
+.menu-horizontal,
+.logoholder,
+.searcholder{
+    display: table;
+    width: 100%;
+    padding-left: 0;
+}
+
+.menu-horizontal li,
+.logotext,
+.searchtext{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.top-menu a,
+.logo {
+    text-transform: uppercase;
+    font-family: 'Ubuntu', Arial, sans-serif;
+    color: #ecf0f1;
+    font-size: 1.5625em;
+}
+
+.top-menu a:hover {
+    color: #bdc3c7;
+}
+
+.top-menu a:active {
+    color: #95a5a6;
+}
+
+.search {
+    border: 0.117708333em solid #95a5a6;
+    border-radius: 0.5em;
+    text-align: left;
+    font-family: 'Ubuntu', Arial, sans-serif;
+    color: #ecf0f1;
+    height: 1.2m;
+    width: 90%;
+    padding: 0.090625em;
+}
+
+
+
+

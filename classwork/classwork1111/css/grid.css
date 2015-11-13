@@ -2,11 +2,6 @@
     overflow: hidden;
 }
 
-.row .row {
-    margin-left: -1.25em;
-    margin-right: -1.25em;
-}
-
 .row:after {
     clear: both;
     content: '.'

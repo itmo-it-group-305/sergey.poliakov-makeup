@@ -1,0 +1,22 @@
+@import url(//necolas.github.io/normalize.css/3.0.2/normalize.css);
+@import url(reset.css);
+@import url(grid.css);
+
+.wrapper {
+    min-width: 200px;
+    max-width: 2000px;
+}
+
+body {
+    font-size: 0.5em; /*16px*/
+}
+
+.test {
+    font-size: 2em; /*32px / 16px = 2*/
+
+}
+
+.test span {
+    /*1em == 32px*/
+    font-size: 0.5em; /*16px*/
+}
