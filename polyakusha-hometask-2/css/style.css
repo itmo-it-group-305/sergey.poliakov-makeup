@@ -2,9 +2,11 @@
 @import url(reset.css);
 @import url(modal.css);
 @import url(grid.css);
-@import url(//fonts.googleapis.com/css?family=Roboto:400,500,700|Ubuntu:400,500,700&subset=latin,cyrillic);
+@import url(//fonts.googleapis.com/css?family=Exo+2:400,500,700|Comfortaa:400,700,300|Ubuntu:400,500,700&subset=latin,cyrillic);
 @import url(brief.css);
 @import url(menu.css);
+@import url(header.css);
+@import url(footer.css);
 
 .wrapper {
     min-width: 200px;
@@ -12,82 +14,43 @@
 }
 
 body {
-    font-family: 'Roboto', Arial, sans-serif;
-    background: #ecf0f1;
-    color: #2c3e50;
-    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    background: #ffffff;
+    color: #333352;
 }
 
 h1 {
-    font-family: 'Ubuntu', Arial, sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 3em;
 }
 
 h2 {
-    font-family: 'Roboto', Arial, sans-serif;
-    color: #8e44ad;
-    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    color: #ff4d00;
+    text-align: left;
     font-size: 2em;
-    padding: 0.625em;
+    padding: 0.625em 0;
     line-height: 130%;
 }
 
 p {
     line-height: 105%;
     text-align: justify;
-    padding: 0.625em;
+    padding: 0.625em 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
 }
 
 img {
     width: 100%;
 }
 
-.header {
-    background: url(../img/review.jpeg) no-repeat;
-    height: 250px;
-    padding-top: 50px;
-    padding-left: 50px;
-    text-align: center;
-    vertical-align: right;
-}
-
-.brief {
-    background: url(../img/vip.jpeg) no-repeat;
-}
-
-.header h1,
-.header p{
-    display: inline-block;
-    margin-bottom: 20px;
-    background: rgba(52, 152, 219, 0.78);
-    color: #ecf0f1;
-    text-indent: 0;
-    padding: 25px;
-}
-
 .content {
     padding: 40px;
-}
-
-
-.footer {
-    background: #2c3e50;
-    color: #ecf0f1;
-    height: 55px;
-    padding: 20px 20px;
-}
-
-.footer p {
-    padding: 0;
-}
-
-.footer a {
-    text-decoration: none;
-    color: #ecf0f1;
-    text-transform: lowercase;
-}
-
-.footer a:hover {
-    text-decoration: none;
-    color: #fff;
 }

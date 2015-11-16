@@ -1,0 +1,34 @@
+.footer {
+    background: linear-gradient(to bottom, #666666, #626262);
+    color: #ecf0f1;
+    padding: 1em 2em;
+}
+
+.footer p {
+    font-family: 'Exo 2', sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 100%;
+    font-size: 0.8em;
+    padding: 0;
+}
+
+.f-center p {
+    text-align: center;
+}
+
+.f-right p {
+    text-align: right;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #ecf0f1;
+    text-transform: lowercase;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+

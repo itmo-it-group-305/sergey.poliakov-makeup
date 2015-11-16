@@ -1,0 +1,28 @@
+.header {
+    background: url(../img/simple.jpeg) no-repeat;
+    padding: 3em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.brief {
+    background: url(../img/vip.jpeg) no-repeat;
+}
+
+.header h1,
+.header p{
+    display: inline-block;
+    margin-bottom: 0.5em;
+    background: rgba(255, 255, 255, 0.80);
+    color: #125DBF;
+    text-indent: 0;
+    padding: 0.55em;
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+.header p {
+    font-size: 1.2em;
+    font-family: 'Exo 2', sans-serif;
+}

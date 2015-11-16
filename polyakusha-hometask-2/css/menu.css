@@ -1,5 +1,5 @@
 .top-menu {
-    background: #3498db;
+    background: linear-gradient(to top, #005aa9, #125dbf);
     position: relative;
 }
 
@@ -21,7 +21,7 @@
 
 .logo,
 .logotext a {
-    text-shadow: 3px 1px 17px rgba(52, 73, 94, 0.96);
+    text-shadow: 0.2em 0.1em 1em rgba(66, 66, 66, 0.8);
 }
 
 .menu-horizontal,
@@ -44,7 +44,7 @@
     display: none;
     position: absolute;
     list-style-type: none;
-    background: #3498db;
+    background: #005AA9;
 }
 
 .menu ul ul,
@@ -55,13 +55,12 @@
     left: 100%;
 }
 
-
 .menu ul li {
     display: block;
 }
 
 .home-menu ul li:nth-child(2n) {
-    background: #34495e;
+    background: linear-gradient(to top, #005aa9, #125dbf);
 }
 
 .menu li:hover ul{
@@ -77,39 +76,43 @@
 .logotext a,
 .active {
     text-transform: uppercase;
-    font-family: 'Ubuntu', Arial, sans-serif;
+    font-family: 'Comfortaa', cursive;
     color: #ecf0f1;
     font-size: 1.5625em;
 }
 
-.top-menu a,
+.top-menu a {
+    color: #ecf0f1;
+}
+
 .logo,
 .logotext a {
-    color: #ecf0f1;
+    color: #fcd500;
 }
 
 .active {
-    color: #95a5a6;
+    color: #000;
 }
 
-.top-menu a:hover {
-    color: #bdc3c7;
+.top-menu li:hover {
+    background: linear-gradient(to top, #003b87, #144a90);
+    border-radius: 0.4em;
 }
 
 .top-menu a:active {
-    color: #95a5a6;
+    color: #ff4d00;
 }
 
-.search {
-    border: 0.117708333em solid #95a5a6;
-    border-radius: 0.5em;
-    text-align: left;
-    font-family: 'Ubuntu', Arial, sans-serif;
-    color: #ecf0f1;
-    height: 1.2m;
-    width: 90%;
-    padding: 0.090625em;
-}
+/*.search {*/
+    /*border: 0.117708333em solid #95a5a6;*/
+    /*border-radius: 0.5em;*/
+    /*text-align: left;*/
+    /*font-family: 'Ubuntu', Arial, sans-serif;*/
+    /*color: #ecf0f1;*/
+    /*height: 1.2em;*/
+    /*width: 90%;*/
+    /*padding: 0.090625em;*/
+/*}*/
 
 
 
