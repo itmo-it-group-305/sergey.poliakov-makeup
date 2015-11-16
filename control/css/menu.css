@@ -1,0 +1,54 @@
+nav {
+    text-transform: uppercase;
+    background: #fefefe;
+    color: #262626;
+    padding: 1em;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #212121;
+    font-family: 'Novecentowide', sans-serif;
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+    font-family: 'UnifrakturCook', cursive;
+}
+
+.menu-horizontal {
+    display: inline-block;
+    float: inherit;
+    padding-left: 2em;
+}
+
+
+.menu-horizontal li {
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 2em;
+}
+
+
+/*Я знаю, что тут лучше как-то иначе выбрать*/
+
+.menu-horizontal li:nth-child(-n+5):after {
+    content: "/";
+    position:relative;
+    left: 1em;
+    color: #c4c4c4;
+}
+
+.active {
+    color: #cacaca;
+}
+
+.social-icons {
+    font-family: 'FontAwesome', serif;
+    display: inline-block;
+    float: right;
+}
+
