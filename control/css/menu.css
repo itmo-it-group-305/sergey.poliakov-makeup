@@ -26,6 +26,10 @@ nav a,
     vertical-align: middle;
 }
 
+.mobile-navbar {
+    display: none;
+}
+
 .menu-horizontal {
     display: inline-block;
     float: inherit;
@@ -64,3 +68,15 @@ nav a,
     position: relative;
 }
 
+@media screen and (max-width: 37.4375em) {
+
+    .mobile-navbar {
+        font-family: 'FontAwesome', serif;
+        display: inline-block;
+        position: relative;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+}
