@@ -6,22 +6,31 @@ nav {
     font-weight: bold;
 }
 
-nav a {
+nav a,
+.active {
     text-decoration: none;
     color: #212121;
-    font-family: 'Novecentowide', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
 }
 
 .logo {
     display: inline-block;
     float: left;
     font-family: 'UnifrakturCook', cursive;
+    position: relative;
+}
+
+.logo img {
+    vertical-align: middle;
 }
 
 .menu-horizontal {
     display: inline-block;
     float: inherit;
     padding-left: 2em;
+    position: absolute;
 }
 
 
@@ -30,6 +39,7 @@ nav a {
     text-align: center;
     vertical-align: middle;
     padding-right: 2em;
+    position: relative;
 }
 
 
@@ -38,8 +48,9 @@ nav a {
 .menu-horizontal li:nth-child(-n+5):after {
     content: "/";
     position:relative;
-    left: 1em;
+    left: 1.5em;
     color: #c4c4c4;
+    font-size: 0.8em;
 }
 
 .active {
@@ -50,5 +61,6 @@ nav a {
     font-family: 'FontAwesome', serif;
     display: inline-block;
     float: right;
+    position: relative;
 }
 

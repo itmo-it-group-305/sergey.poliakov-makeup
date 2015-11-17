@@ -2,7 +2,7 @@
 @import url(reset.css);
 @import url(grid.css);
 @import url(font-awesome.min.css);
-@import url(//fonts.googleapis.com/css?family=UnifrakturCook:700);
+@import url(//fonts.googleapis.com/css?family=Ubuntu:400,500,700|Roboto:400,300&subset=latin,cyrillic);
 @import url(menu.css);
 
 @font-face {
@@ -19,7 +19,8 @@
 body {
     background: #e6e6e6;
     color: #010101;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 img {
@@ -45,6 +46,10 @@ article h2 {
     font-size: 2em;
     margin: 0.5em 0;
     font-family: 'Novecentowide', sans-serif;
+}
+
+article time:after {
+    content: ' /'
 }
 
 article header p {
