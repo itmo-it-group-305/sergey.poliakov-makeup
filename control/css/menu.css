@@ -4,6 +4,8 @@ nav {
     color: #262626;
     padding: 1em;
     font-weight: bold;
+    position: relative;
+    height: 3.5em;
 }
 
 nav a,
@@ -19,7 +21,9 @@ nav a,
     display: inline-block;
     float: left;
     font-family: 'UnifrakturCook', cursive;
-    position: relative;
+    position: absolute;
+    left: 3em;
+    line-height: 1em;
 }
 
 .logo img {
@@ -31,6 +35,7 @@ nav a,
     float: inherit;
     padding-left: 2em;
     position: absolute;
+    left: 15em;
 }
 
 
@@ -61,6 +66,7 @@ nav a,
     font-family: 'FontAwesome', serif;
     display: inline-block;
     float: right;
-    position: relative;
+    position: absolute;
+    right: 3em;
 }
 
