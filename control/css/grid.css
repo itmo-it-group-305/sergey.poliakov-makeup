@@ -20,7 +20,7 @@
     padding: 0 1.25em;
 }
 
-@media only screen and (max-width: 599px) { /*599px */
+@media only screen and (max-width: 37.4575em) {
     [class*=col-], {
         float: none;
         width: 100%;
@@ -32,7 +32,7 @@
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 37.5em) {
     .col-1  { width: 8.33333333333%; }
     .col-2  { width: 16.6666666667%; }
     .col-3  { width: 25%; }

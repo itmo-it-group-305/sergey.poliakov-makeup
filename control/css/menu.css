@@ -19,7 +19,7 @@ nav a,
 
 .logo {
     display: inline-block;
-    float: left;
+    /*float: left;*/
     font-family: 'UnifrakturCook', cursive;
     position: absolute;
     left: 3em;
@@ -65,8 +65,27 @@ nav a,
 .social-icons {
     font-family: 'FontAwesome', serif;
     display: inline-block;
-    float: right;
+    /*float: right;*/
     position: absolute;
     right: 3em;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/*Адаптивное меню (не уверен, что правильно)*/
+
+@media only screen and (max-width: 37.4575em) {
+    .mobile-menu  {
+        display: inline-block;
+        position: absolute;
+        right: 3em;
+    }
+
+    .menu-horizontal,
+    .social-icons {
+        display: none;
+    }
 }
 
