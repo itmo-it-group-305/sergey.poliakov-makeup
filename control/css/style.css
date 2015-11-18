@@ -38,10 +38,6 @@ hr {
     border-bottom: 1px dashed #d6d6d6;
 }
 
-article img {
-    padding: 1em 4em;
-}
-
 article h2 {
     font-size: 2em;
     margin: 0.5em 0;
@@ -54,6 +50,10 @@ article time:after {
 
 article header p {
     font-style: italic;
+}
+
+.imageholder {
+    padding: 1em;
 }
 
 aside p,

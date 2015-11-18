@@ -30,6 +30,10 @@ nav a,
     vertical-align: middle;
 }
 
+.mobile-navbar {
+    display: none;
+}
+
 .menu-horizontal {
     display: inline-block;
     float: inherit;
@@ -74,6 +78,7 @@ nav a,
     display: none;
 }
 
+<<<<<<< HEAD
 /*Адаптивное меню (не уверен, что правильно)*/
 
 @media only screen and (max-width: 37.4575em) {
