@@ -77,15 +77,22 @@ nav a,
 /*Адаптивное меню (не уверен, что правильно)*/
 
 @media only screen and (max-width: 37.4575em) {
-    .mobile-menu  {
-        display: inline-block;
-        position: absolute;
-        right: 3em;
+    nav {
+        height: 10em;
     }
 
-    .menu-horizontal,
-    .social-icons {
-        display: none;
+    /*.mobile-menu  {*/
+        /*display: inline-block;*/
+        /*position: absolute;*/
+        /*right: 3em;*/
+    /*}*/
+
+    .menu-horizontal {
+        top: 1em;
     }
-}
+
+    .social-icons {
+        top: 8em;
+    }
+ }
 
